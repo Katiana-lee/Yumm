@@ -5,7 +5,7 @@ An app to discover meal recipes for infants up to toddlers.
 
 ## Project Description
 
-Yumm is an Airtable and React build where the user is able to select different meal options for when a baby is ready to eat solids till there are twelve months of age. The user also has an option to add a recipe that they found their baby to enjoy. From the homepage, the user is able to navigate to and click on one of three categories of choice that leads to a corresponding page populated with recipes catered to the childs age. Also, there is a form to add more and delicious meal ideas to the list. This app is website and mobile friendly.
+Yumm is an Airtable and React build where the user is able to select different meal options for when a baby is ready to eat solids. The user also has an option to add a recipe that they found their baby to enjoy. From the homepage, the user is able to navigate to and click on one of three categories of choice that leads to a corresponding page populated with recipes catered to the childs age. Also, there is a form to add more and delicious meal ideas to the list. This app is website and mobile friendly.
 
 
 ## Wireframes
@@ -104,7 +104,7 @@ Airtable is returning the data for this base as follows:
 
 ### Strengths:
 
-I have a good understanding of the functionality and use of my application and how it could help parents, like myself, even caregivers, family and friends expand a childs pallete as they grow. I want to make the best use of my time and tackle what I have set to be completely daily. 
+I have a good understanding of the functionality and use of my application and how it could help parents, like myself, even caregivers, family and friends expand a childs pallete as they grow. I want to make the best use of my time and tackle what I have set to be completed daily. 
 
 ### Weaknesses:
 
@@ -112,7 +112,7 @@ When it comes to CSS, I am like a dear in headlights, but I will use resources a
 
 ### Opportunities:
 
-This project will help solidfy my understanding of React and I am excited to create something that I am passionate about. I enjoy cooking and knowing what is in the food that I prepare for myself and my child is an amazing feeling. I am motivated to make it look minimal as well as being fun and interactive.
+This project will help solidfy my understanding of React and I am excited to create something that I am passionate about. I enjoy cooking and knowing what is in the food that I prepare for myself and my child is an amazing feeling and important during her primitive years. I am motivated to make it look minimal as well as being fun and interactive.
 
 ### Threats:
 
