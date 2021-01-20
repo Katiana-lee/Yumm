@@ -92,15 +92,17 @@ Airtable is returning the data for this base as follows:
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Airtable setup | H | 5hrs | TBA| TBA |
-| Data population on homepage | H | 4hrs| TBA | TBA |
+| Airtable setup | H | 2.5hrs | TBA| TBA |
+| Home page stages data | H | 2hrs| TBA | TBA |
 | Data population on stage 1 page| H | 2hrs| TBA | TBA |
 | Data population on stage 2 page | H | 2hrs| TBA | TBA |
 | Data population on stage 3 page | H | 2hrs| TBA |TBA |
 | Form | M | 2hrs| TBA |TBA |
-| CSS on homepage | H | 5hrs| TBA | TBA|
-| CSS on pages | H |7hrs| TBA|TBA |
-| CSS on form | H | 4hrs| TBA |TBA  |
+| Nav and search bar | H | 1.5hrs| TBA | TBA|
+| CSS on breakfast options subsection | H |3hrs| TBA|TBA |
+| CSS on lunch options subsection | H |2hrs| TBA|TBA |
+| CSS on dinner option subsection | H |2hrs| TBA|TBA |
+| CSS on form | H | 1.5hrs| TBA |TBA  |
 | Total | H |TBA| TBA | TBA |
 
 ## SWOT Analysis
