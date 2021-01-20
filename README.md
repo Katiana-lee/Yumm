@@ -9,8 +9,10 @@ Yumm is an Airtable and React build where the user is able to select different m
 
 
 ## Wireframes
-[Yumm Desktop Wireframe](https://wireframe.cc/0iU2Fu),
-[Yumm Mobile Wireframe](https://wireframe.cc/JDJCRs)
+[Yumm Desktop Home Page](https://wireframe.cc/0iU2Fu),
+[Desktop Recipe Page](https://wireframe.cc/yW),
+[Yumm Mobile Wireframe](https://wireframe.cc/JDJCRs),
+[Mobile Recipe Page](https://wireframe.cc/gVHzN1)
 
 ## Component Hierarchy
 [Hierarchy]https://app.moqups.com/52gSDJn7jw/view/page/aaf1baec7
@@ -20,27 +22,27 @@ Yumm is an Airtable and React build where the user is able to select different m
 Airtable is returning the data for this base as follows:
 
 ```json
-{
+ {
     "records": [
         {
             "id": "recl0DOHhEM0VIX82",
             "fields": {
+                "recipe": "1. Add bananas to a short cup. 2 Blend to desired consistency",
+                "ingredients": "bananas",
                 "title": "Banana purée",
-                "recipe": "1 Add bananas to a short cup. 2 Blend to desired consistency",
-                "time": 10,
-                "ingredients": "bananas"
+                "stage": 1
             },
-            "createdTime": "2021-01-17T04:19:30.000Z"
+            "createdTime": "2021-01-20T04:19:30.000Z"
         },
         {
             "id": "recdW3jFwk39CPJt6",
             "fields": {
-                "ingredients": "Sweet potato(peeled,steamed/boiled and cooled, Carrots(steamed/boiled and cooled) breastmilk/water/formula",
+                "recipe": "1. Add thoroughly cooled ingredients to the blender 2. Blend for 30 seconds, until combined then stir 3. Blend for another 30 seconds to reach a smoot...",
+                "ingredients": "Sweet potato(peeled,steamed/boiled and cooled),  Carrots(steamed/boiled and cooled),  breastmilk/water/formula",
                 "title": "Sweet potato & Carrot Purée",
-                "time": 60,
-                "recipe": "1. Add thoroughly cooled ingredients to the blender 2. Blend for 30 seconds, until combined then stir 3. Blend for another 30 seconds to reach a smoot..."
+                "stage": 1
             },
-            "createdTime": "2021-01-17T04:19:30.000Z"
+            "createdTime": "2021-01-20T04:19:30.000Z"
         },
         {
             "id": "rec7mz54yUkYu4Gk4",
@@ -48,13 +50,14 @@ Airtable is returning the data for this base as follows:
                 "recipe": "1. Add ingredients to a blender. Blend to the desired consistency",
                 "ingredients": "Banana, strawberries(halved)",
                 "title": "Strawberry & Banana Blend",
-                "time": 20
+                "stage": 1
             },
-            "createdTime": "2021-01-17T04:19:30.000Z"
+            "createdTime": "2021-01-20T04:19:30.000Z"
         }
     ],
     "offset": "rec7mz54yUkYu4Gk4"
 }
+
 
 ```
 
