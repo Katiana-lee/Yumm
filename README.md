@@ -1,7 +1,7 @@
 # Project Overview
 
 # Yumm
-An app to discover meal recipes for babies.
+An app to discover meal recipes for infants up to toddlers.
 
 ## Project Description
 
