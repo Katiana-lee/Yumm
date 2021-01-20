@@ -65,7 +65,7 @@ Airtable is returning the data for this base as follows:
 
 #### MVP 
 
-- Hompe page with clickable categories that route to the recipes
+- Home page with clickable categories that route to the recipes
 - Develop a single recipe view page that gives user information about selected recipe including:    ingredients, cooking instructions, and time duration
 - Use forms to create recipes and update Airtable
 
