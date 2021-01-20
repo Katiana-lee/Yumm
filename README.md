@@ -3,6 +3,8 @@
 # Yumm
 An app to discover organic meal recipes for infants and up.
 
+>Happiness is Homemade
+
 ## Project Description
 
 Yumm is an Airtable and React build where the user is able to select different meal options for when a baby is ready to eat solids. The user also has an option to add a recipe that they found their baby to enjoy. From the homepage, the user is able to navigate to and click on one of three categories of choice that leads to a corresponding page populated with recipes catered to the childs age. Also, there is a form to add more and delicious meal ideas to the list. This app is website and mobile friendly.
