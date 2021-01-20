@@ -13,7 +13,7 @@ Yumm is an Airtable and React build where the user is able to select different m
 [Yumm Mobile Wireframe](https://wireframe.cc/JDJCRs)
 
 ## Component Hierarchy
-https://app.moqups.com/52gSDJn7jw/view/page/aaf1baec7
+[Hierarchy]https://app.moqups.com/52gSDJn7jw/view/page/aaf1baec7
 
 ## API and Data Sample
 
