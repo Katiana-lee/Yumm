@@ -4,6 +4,7 @@ import { Link , Route, useHistory} from "react-router-dom"
 import axios from "axios"
 import Home from "./components/Home"
 import Recipes from "./components/Recipes"
+import Form from "./components/Form"
 import './App.css';
 
 function App() {
@@ -12,9 +13,8 @@ function App() {
   const [recipes, setRecipes] = useState([])
   const [stageData, setStageData] = useState([])
   
-// one state for toggle
   const [toggleFetch, setToggleFetch] = useState(false)
-// get data from api when toggle changes
+
   useEffect(() => {
     const getRecipes = async () => {
       const resp = await axios.get(baseURL, config)
@@ -39,6 +39,9 @@ function App() {
       </Route>
       <Route path='/recipes'>
         <Recipes stageData={stageData}/>
+      </Route>
+      <Route path='/recipes'>
+        <Form setToggleFetch={setToggleFetch} />
       </Route>
    </div>
   )

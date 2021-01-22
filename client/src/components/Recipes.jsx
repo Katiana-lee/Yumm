@@ -8,7 +8,7 @@ return (
     {props.stageData.map((recipe) => (
       <Link to={`/recipe/${recipe.fields.stage}`}>
         <div>
-          {recipe.fields.title}
+          {recipe.fields.type}
         </div>
 </Link>
 

@@ -6,7 +6,7 @@ function Home(props) {
 
 return (
   <div className="home">
-    <h2>Please work homepage</h2>
+    <h2>Yumm</h2>
     {buttons.map((stage, index) => (
       <button onClick={() => props.filterData(index + 1)}>{stage}</button>
     ))}
