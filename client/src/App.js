@@ -5,6 +5,7 @@ import axios from "axios"
 import Home from "./components/Home"
 import Recipes from "./components/Recipes"
 import Form from "./components/Form"
+import Nav from "./components/Nav"
 import './App.css';
 
 function App() {
@@ -33,14 +34,17 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="app">
+      <Nav />
       <Route exact path='/'>
-        <Home recipes={recipes} filterData={filterData}/>
+        <main>
+          <Home recipes={recipes} filterData={filterData} />
+          </main>
       </Route>
       <Route path='/recipes'>
         <Recipes stageData={stageData}/>
       </Route>
-      <Route path='/recipes'>
+      <Route path='/new'>
         <Form setToggleFetch={setToggleFetch} />
       </Route>
    </div>

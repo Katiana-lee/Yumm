@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+/* #e4dac3 #f1e3bc #bfe4d2 #f0d6d8 #3f382f */
+
+nav {
+  display: flex;
+  padding: 5px;
+  width: 100vw;
+  box-sizing: border-box;
+  justify-content: space-between;
+  border-bottom: 1px solid #bfe4d2;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+  font-family: "Unica One";
+  font-weight: 900;
+  color: #3f382f;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form label,
+form input,
+form button, h4 {
+  margin: 5px 0;
+  font-family: "Open Sans";
+  width: 50vw;
+  box-sizing: border-box;
+  width: 50vw;
+  min-width: 280px;
+  margin: 20px auto 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+ 
+
+form input:focus,
+form button:focus {
+  outline: 1px solid #f0d6d8;
+}
+form h4 {
+  font-family: "Unica One";
+  font-weight: 700;
+  color: #3f382f;
+}
+form label {
+  color: f0d6d8;
+  font-weight: 600;
+  text-shadow: 3px 3px 6px #e4dac3;
+}
+form input,
+form button {
+  font-weight: 600;
+  background-color: #f1e3bc;
   color: white;
+  transition: all 0.2s;
+}
+form button:hover {
+  color: #bfe4d2;
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.home {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  background-color: #bfe4d2
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .home h1{
+    font-family: 'Unica One', serif;
+    font-size: 75px;
+    margin-bottom: 10px;
+    color:  #2F2C2C;
   }
-  to {
-    transform: rotate(360deg);
+
+  .home{
+    font-family: 'Open Sans', serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0 auto;
   }
-}
+
+  .home p {
+    margin: 25px 0px;
+    padding: 25px 70px;
+    font-weight: 300;
+    line-height: 23px;
+    font-size: 15px;
+  }
+  
+  .home button {
+    background-color: #524F4F;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 20px;
+  }
+  
+  .home Link button :hover{
+    background-color: #2F2C2C
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* default iPad screens */
+  .home-div p {
+    padding: 25px 0px
+  }
+  }
+  
+  @media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; 
+    (iPhone) */
+  .home h1 {
+    font-size: 50px;
+  }
+  
+  .home p {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  }
+  
+  .app {
+    background-color: #f0d6d8;
+  }

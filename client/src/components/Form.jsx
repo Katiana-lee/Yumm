@@ -6,7 +6,7 @@ function Form(props) {
   const [title, setTitle] = useState("")
   const [ingredients, setIngredients] = useState("")
   const [recipe, setRecipe] = useState("")
-  const [stage, setStage] = useState("")
+  const [stage, setStage] = useState(1)
  
   const handleSubmit = async (e) => {
     e.preventDefault()
