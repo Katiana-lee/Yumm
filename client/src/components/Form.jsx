@@ -9,12 +9,13 @@ function Form(props) {
   const [stage, setStage] = useState(1)
  
   const handleSubmit = async (e) => {
-    e.preventDefault()
+    // e.preventDefault()
 
     const fields = {
       title,
       ingredients,
       recipe,
+      stage,
 
     }
     await axios.post(baseURL, { fields }, config)

@@ -1,4 +1,10 @@
 /* #e4dac3 #f1e3bc #bfe4d2 #f0d6d8 #3f382f */
+* {   text-decoration: none;
+}
+
+.app {
+  height: 100vh;
+}
 
 nav {
   display: flex;
