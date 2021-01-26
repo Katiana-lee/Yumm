@@ -10,59 +10,90 @@ nav {
   display: flex;
   padding: 5px;
   width: 100vw;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   justify-content: space-between;
-  border-bottom: 1px solid #bfe4d2;
   text-decoration: none;
-  border-bottom: 1px solid transparent;
+  /* border-bottom: 1px solid transparent; */
   transition: all 0.2s;
-  font-family: "Unica One";
+  font-family: "Montserrat";
   font-weight: 900;
-  color: #3f382f;
+  color:  #2F2C2C;
  
 }
 
+
+form,
 form label,
-form input,
-form button, h4 {
-  margin: 5px 0;
-  font-family: "Open Sans";
-  width: 50vw;
-  box-sizing: border-box;
-  width: 50vw;
-  min-width: 280px;
-  margin: 20px auto 0;
+form input {
+  /* outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 20px; */
+   /* border-radius: 20px; */
+  /* padding: 20px 40px;
+  margin: 20px;  */
+  /* margin: 25px 0px;
+  padding: 25px 70px; */
+  /* margin: 5px 0; */
+  font-family: "Montserrat";
+  /* width: 50vw; */
+  /* box-sizing: border-box; */
+  /* width: 50vw; */
+  /* min-width: 100px; */
+  /* margin: 20px auto 0; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  outline: none;
+  border: none;
+  /* background-color: #f0d6d8; */
 }
  
 
-form input:focus,
+/* form input:focus,
 form button:focus {
   outline: 1px solid #f0d6d8;
-}
+} */
+
 form h4 {
-  font-family: "Unica One";
+  font-family: "Montserrat";
   font-weight: 700;
   color: #3f382f;
+  text-align: center;
 }
 form label {
-  color: f0d6d8;
+  color:  #3f382f;
   font-weight: 600;
-  text-shadow: 3px 3px 6px #e4dac3;
+  /* text-shadow: 3px 3px 6px #bfe4d2; */
+  text-align: center
 }
-form input,
-form button {
-  font-weight: 600;
-  background-color: #f1e3bc;
-  color: white;
+form input {
+  font-family: "Montserrat";
+   border-radius: 20px; 
+    padding: 20px 40px;
+    margin: 20px; 
+  font-weight: 700;
+  background-color: #e4dac3;
+  color: #3f382f;
   transition: all 0.2s;
 }
+
+
+form button {
+  background-color: #e4dac3;
+  color: #524F4F;
+  font-family: 'Montserrat';
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin: 20px;
+}
 form button:hover {
-  color: #bfe4d2;
-  background-color: white;
+  color:#3f382f;
+  background-color: #f0d6d8;
 }
 
 .home {
@@ -73,30 +104,30 @@ form button:hover {
   }
 
   .home h1{
-    font-family: 'Unica One', serif;
+    font-family: 'Hachi Maru Pop', cursive;
     font-size: 75px;
     margin-bottom: 10px;
     color:  #2F2C2C;
   }
 
   .home{
-    font-family: 'Open Sans', serif;
+    font-family: 'Montserrat';
     font-weight: 100;
     font-size: 20px;
     margin: 0 auto;
   }
 
   .home p {
-    margin: 25px 0px;
-    padding: 25px 70px;
-    font-weight: 300;
-    line-height: 23px;
+    
+    font-weight: 74000;
+    /* line-height: 23px; */
     font-size: 15px;
   }
   
   .home button {
-    background-color: #524F4F;
-    color: white;
+    background-color: #e4dac3;
+    color: #524F4F;
+    font-family: 'Montserrat';
     outline: none;
     border: none;
     border-radius: 20px;
@@ -104,21 +135,22 @@ form button:hover {
     margin: 20px;
   }
   
-  .home Link button :hover{
-    background-color: #2F2C2C
+  .home button:hover{
+    background-color:#bfe4d2
   }
   
   @media only screen and (max-width: 768px) {
     /* default iPad screens */
-  .home-div p {
-    padding: 25px 0px
+  .home {
+    padding: 25px 0px;
+   
   }
   }
   
   @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; 
     (iPhone) */
-  .home h1 {
+  .home {
     font-size: 50px;
   }
   
@@ -126,8 +158,41 @@ form button:hover {
     font-size: 11px;
     line-height: 20px;
   }
-  }
-  
+}
   .app {
     background-color: #f0d6d8;
+  }
+
+  .recipes, p {
+    font-family: 'Montserrat';
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #524F4F;
+  }
+
+  .recipes h4 {
+    background-color: #e4dac3;
+    color: #524F4F;
+    font-family: 'Montserrat';
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 20px;
+  }
+
+  .recipes link {
+    color: #524F4F;
+  }
+
+  .back button {
+    background-color: #e4dac3;
+    color: #524F4F;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+   
   }

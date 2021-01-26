@@ -2,11 +2,13 @@ import { useState } from "react"
 import axios from "axios"
 import { baseURL, config } from "../services"
 
+
 function Form(props) {
   const [title, setTitle] = useState("")
   const [ingredients, setIngredients] = useState("")
   const [recipe, setRecipe] = useState("")
   const [stage, setStage] = useState(1)
+  const [type, setType] = useState("")
  
   const handleSubmit = async (e) => {
     // e.preventDefault()
@@ -15,9 +17,11 @@ function Form(props) {
       title,
       ingredients,
       recipe,
+      type,
       stage,
-
     }
+
+   
     await axios.post(baseURL, { fields }, config)
     console.log("success!")
     props.setToggleFetch((prev) => !prev)
@@ -30,7 +34,8 @@ function Form(props) {
         title="title"
         type="text"
         value={title}
-        onChange={(e) => setTitle(e.target.value)} />
+        onChange={(e) => setTitle(e.target.value)}
+      />
       <label htmlFor="ingredients">Ingredients:</label>
       <input
         title="ingredients"
@@ -41,16 +46,23 @@ function Form(props) {
       <input
         title="recipe"
         type="text"
-        value={recipe}
-        onChange={(e) => setRecipe(e.target.value)} />
+        textarea value={recipe}
+        onChange={(e) => setRecipe(e.target.recipe)} />
       <label htmlFor="stage">Stage:</label>
       <input
         title="stage"
         type="number"
         min="1"
         max="3"
+        name='stage'
         value={stage}
         onChange={(e) => setStage(e.target.valueAsNumber)} />
+      <label htmlFor="type">Type:</label>
+      <input
+        title="type"
+        type="text"
+        value={type}
+        onChange={(e) => setType(e.target.value)} />
       <button type="submit">Yummy</button>
    </form>
   )

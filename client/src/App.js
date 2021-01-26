@@ -6,8 +6,8 @@ import Home from "./components/Home"
 import Recipes from "./components/Recipes"
 import Form from "./components/Form"
 import Nav from "./components/Nav"
-import Breakfast from "./components/Breakfast"
 import Recipe from "./components/Recipe"
+import Back from "./components/Back"
 import './App.css';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   const history = useHistory()
   const [recipes, setRecipes] = useState([])
   const [stageData, setStageData] = useState([])
-  const [breakfast, setBreakfast] = useState([])
+  
   
   const [toggleFetch, setToggleFetch] = useState(false)
 
@@ -34,13 +34,16 @@ function App() {
     ))
     setStageData(data)
     history.push('/recipes')
-  
-    
+   
+   
+
   }
 
   return (
     <div className="app">
-      <Nav />
+      <Nav  />
+      {/* <Back onClick={this.goBack}/> */}
+      <Back />
       <Route exact path='/'>
        
           <Home recipes={recipes} filterData={filterData} />
@@ -51,9 +54,6 @@ function App() {
       </Route>
       <Route path='/new'>
         <Form setToggleFetch={setToggleFetch} />
-      </Route>
-      <Route path="/recipes/breakfast" >
-        <Breakfast />
       </Route>
       <Route path='/recipe/:title'>
         <Recipe recipes={recipes}/>

@@ -11,7 +11,7 @@ function Home(props) {
 return (
   <div className="home">
     <h1>Yumm</h1>
-    <p>Welcome to Yumm! An app to discover organic meal recipes for infants and up. </p>
+    <p>Welcome to Yumm! <br/> An app to discover organic meal recipes for children </p>
     {buttons.map((stage, index) => (
       <button onClick={() => props.filterData(index + 1)}> {stage}</button>
     ))}

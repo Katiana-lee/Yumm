@@ -7,10 +7,13 @@ function Recipe(props) {
   ))
 
   return (
-    <div>
-      <h4>Recipe</h4>
-      {singleData.fields.ingredients}
+    <div className="recipes">
+      <h4>{singleData.fields.title}</h4>
       <img src={singleData.fields.src} />
+      <label htmlFor="title">Ingredients:</label>
+      <p>{singleData.fields.ingredients}</p>
+      <p>{singleData.fields.recipe}</p>
+     
 
     </div>
   );
