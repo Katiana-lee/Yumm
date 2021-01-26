@@ -8,6 +8,7 @@ import Form from "./components/Form"
 import Nav from "./components/Nav"
 import Recipe from "./components/Recipe"
 import Back from "./components/Back"
+import Footer from "./components/Footer"
 import './App.css';
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
       <Route path='/recipe/:title'>
         <Recipe recipes={recipes}/>
       </Route>
+      <Footer />
    </div>
   )
 }

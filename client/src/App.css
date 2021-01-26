@@ -14,13 +14,22 @@ nav {
   justify-content: space-between;
   text-decoration: none;
   /* border-bottom: 1px solid transparent; */
-  transition: all 0.2s;
-  font-family: "Montserrat";
+  /* transition: all 0.2s;  */
+  font-family: 'Montserrat';
+    font-weight: 100;
+    /* font-size: 20px; */
   font-weight: 900;
-  color:  #2F2C2C;
+  /* font-style:  #2F2C2C; */
+  color: #524F4F;
+  
+  
+ 
  
 }
-
+/* nav:hover {
+  font-weight: 400;
+ background-color: white;
+} */
 
 form,
 form label,
@@ -50,7 +59,9 @@ form input {
   border: none;
   /* background-color: #f0d6d8; */
 }
- 
+
+  
+  
 
 /* form input:focus,
 form button:focus {
@@ -77,20 +88,21 @@ form input {
   font-weight: 700;
   background-color: #e4dac3;
   color: #3f382f;
-  transition: all 0.2s;
+  /* transition: all 0.2s; */
+  
 }
-
 
 form button {
   background-color: #e4dac3;
-  color: #524F4F;
-  font-family: 'Montserrat';
-  outline: none;
-  border: none;
-  border-radius: 10px;
-  padding: 20px 40px;
-  margin: 20px;
-}
+    color: #524F4F;
+    font-family: 'Montserrat';
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 20px;
+  }
+
 form button:hover {
   color:#3f382f;
   background-color: #f0d6d8;
@@ -100,7 +112,10 @@ form button:hover {
   margin: 0 auto;
   width: 60%;
   text-align: center;
-  background-color: #bfe4d2
+  background-color: #bfe4d2;
+  font-family: 'Montserrat';
+  /* font-weight: 100; */
+  /* font-size: 20px; */
   }
 
   .home h1{
@@ -108,13 +123,6 @@ form button:hover {
     font-size: 75px;
     margin-bottom: 10px;
     color:  #2F2C2C;
-  }
-
-  .home{
-    font-family: 'Montserrat';
-    font-weight: 100;
-    font-size: 20px;
-    margin: 0 auto;
   }
 
   .home p {
@@ -161,15 +169,22 @@ form button:hover {
 }
   .app {
     background-color: #f0d6d8;
+    background-image: url(https://cdn2.vectorstock.com/i/1000x1000/95/86/mother-feeding-child-icon-vector-18109586.jpg);
+    background-repeat: no-repeat;
+  background-size: 200px, 200px;
+  /* opacity: 0.6; */
+ 
+
   }
 
-  .recipes, p {
+  .recipes {
     font-family: 'Montserrat';
     display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #524F4F;
+
   }
 
   .recipes h4 {
@@ -186,6 +201,16 @@ form button:hover {
   .recipes link {
     color: #524F4F;
   }
+  .recipes label {
+    background-color: #e4dac3;
+    color: #524F4F;
+    font-family: 'Montserrat';
+    outline: none; 
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 20px; 
+  }
 
   .back button {
     background-color: #e4dac3;
@@ -196,3 +221,28 @@ form button:hover {
     justify-content:space-evenly;
    
   }
+
+  footer{
+    height: 40px;
+    background-color: rgba(28, 28, 28, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #f0d6d8;
+  }
+  
+  footer p{
+    margin: 0;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 15px;
+    line-height: 40px;
+  }
+  
+  @media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; 
+    (iPhone) */
+  footer p {
+    font-size: 10px;
+  }
+}

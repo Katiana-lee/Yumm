@@ -12,6 +12,7 @@ function Recipe(props) {
       <img src={singleData.fields.src} />
       <label htmlFor="title">Ingredients:</label>
       <p>{singleData.fields.ingredients}</p>
+      <label htmlFor="title">Recipe:</label>
       <p>{singleData.fields.recipe}</p>
      
 
