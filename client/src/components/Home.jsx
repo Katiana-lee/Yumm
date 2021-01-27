@@ -3,9 +3,9 @@ function Home(props) {
  
   
   const buttons = [
-    `Stage 1 (4 - 8 months: Perfect Purées)`,
-    `Stage 2 (9-12 months: Tasty Textures)`,
-    `Stage 3 (12+ months: Mini Meals)`]
+    `Stage 1 (4 - 6 months: Perfect Purées)`,
+    `Stage 2 (6 - 8 months: Tasty Textures)`,
+    `Stage 3 (9 - 12+ months: Mini Meals)`]
 
 return (
   <div className="home">

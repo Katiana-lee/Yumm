@@ -3,8 +3,8 @@
 }
 
 .app {
-  height: 100vh;
-}
+  height: 150vh;
+} 
 
 nav {
   display: flex;
@@ -33,31 +33,27 @@ nav {
 
 form,
 form label,
-form input, form textarea {
-  
-  width: 300px;
-
+form input, form textarea , h4, form button {
+  margin: 0 auto;
+  width: 60%;
   font-family: "Montserrat";
-  /* width: 50vw; */
-  /* box-sizing: border-box; */
-  /* width: 50vw; */
-  /* min-width: 100px; */
-  /* margin: 20px auto 0; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  margin-left: 32%;
+  /* text-align: center; */
+  /* margin-left: 27%; */
   outline: none;
   border: none;
   /* background-color: #f0d6d8; */
-  /* margin: 400px; */
+  /* margin: 300px; */
+  border-radius: 20px;
+  padding: 10px 20px;
 }
 
   
 
- /* form input {
+  /* form input {
   font-family: "Montserrat";
    border-radius: 20px; 
     padding: 20px 40px;
@@ -68,24 +64,24 @@ form input, form textarea {
    margin: 10px;
   transition: all 0.2s; 
   
-} */
-/* 
+}  */
+
 form button {
   background-color: #e4dac3;
     color: #524F4F;
     font-family: 'Montserrat';
     outline: none;
     border: none;
-    /* border-radius: 20px;
+    border-radius: 20px;
     padding: 20px 40px;
     margin: 20px;
-    width: 250px; */
-    /* display: flex;
+    width: 300px; 
+     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 700;
 
-  }  */
+  } 
 form button:hover {
   color:#3f382f;
   background-color: #f0d6d8;
@@ -129,6 +125,7 @@ form button:hover {
   .home button:hover{
     background-color:#bfe4d2
   }
+  
   
   @media only screen and (max-width: 768px) {
     /* default iPad screens */
@@ -183,7 +180,7 @@ form button:hover {
     outline: none;
     border: none;
     border-radius: 20px;
-    padding: 20px 40px;
+    padding: 20px 20px;
     margin: 20px;
   }
 
@@ -198,21 +195,30 @@ form button:hover {
     border: none;
     border-radius: 20px;
     padding: 10px 30px;
-    margin: 20px; 
+    /* margin: 20px;  */
   }
 
   .back button {
     background-color: #e4dac3;
     color: #524F4F;
     font-family: 'Montserrat';
+    border-radius: 20px;
+    padding: 10px 30px;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
+   outline:  #524F4F;
+ 
+  
    
+  }
+  .back button:hover {
+    color:#3f382f;
+  background-color: #f0d6d8;
   }
 
   footer{
-    height: 40px;
+    height: auto;
     /* margin-top: 40px; */
     background-color: #f0d6d8;
     position: absolute;
@@ -228,18 +234,26 @@ form button:hover {
     font-size: 10px;
     line-height: 40px;
   }
-  
-  @media only screen and (max-device-width: 480px) {
+/*   
+  @media only screen and (max-device-width: 480px) { */
     /* styles for mobile browsers smaller than 480px; 
     (iPhone) */
-  footer p {
+  /* footer p {
     font-size: 10px;
   }
-}
+} */
 
-.recipes img {
-  width: 350px;
+.allrecipes img {
+  width: 275px;
+  /* height: auto;  */
+  max-width: 100%;
+  height: auto;
   border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .homeimage {

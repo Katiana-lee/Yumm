@@ -9,7 +9,7 @@ function Form(props) {
   const [ingredients, setIngredients] = useState("")
   const [recipe, setRecipe] = useState("")
   const [stage, setStage] = useState(1)
-  const [type, setType] = useState("")
+  const [type, setType] = useState("breakfast")
   const history = useHistory()
  
   const handleSubmit = async (e) => {
@@ -59,7 +59,7 @@ function Form(props) {
         max="3"
         value={stage}
         onChange={(e) => setStage(e.target.valueAsNumber)} />
-      <label htmlFor="type">Type:</label>
+      <label htmlFor="type">Choose a Meal:</label>
       <input
         title="type"
         type="text"
