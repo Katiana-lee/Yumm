@@ -17,7 +17,7 @@ Yumm is an Airtable and React build where the user is able to select different m
 [Mobile Recipe Page](https://wireframe.cc/gVHzN1)
 
 ## Component Hierarchy
-[Hierarchy]https://app.moqups.com/52gSDJn7jw/view/page/aaf1baec7
+[Hierarchy](https://app.moqups.com/52gSDJn7jw/view/page/aaf1baec7)
 
 ## API and Data Sample
 
@@ -68,13 +68,13 @@ Airtable is returning the data for this base as follows:
 #### MVP 
 
 - Home page with clickable categories that route to the recipes
-- Develop a single recipe view page that gives user information about selected recipe including:    ingredients, cooking instructions, and time duration
+- Develop a single recipe view page that gives user information about selected recipe including:  ingredients and cooking instructions
 - Use forms to create recipes and update Airtable
 
 
 #### PostMVP  
 - Embed a favorites page or a like button
-- Create Search feature where users are able to lookup recipes according to input keywords
+- Create search feature where users are able to lookup recipes according to input keywords
 
 
 ## Project Schedule
@@ -86,8 +86,8 @@ Airtable is returning the data for this base as follows:
 |Jan 21| Get and Post Data, Component Creation| Complete
 |Jan 22| Forms / CSS Components| Complete
 |Jan 25| MVP | Complete
-|Jan 26| PostMVP| Incomplete
-|Jan 27| Presentations | TBA
+|Jan 26| PostMVP| Complete
+|Jan 27| Presentations | Complete
 
 ## Timeframes
 
