@@ -1,39 +1,27 @@
 /* #e4dac3 #f1e3bc #bfe4d2 #f0d6d8 #3f382f */
-* {   text-decoration: none;
+* {
+  text-decoration: none;
 }
-
-.app {
-  height: 150vh;
-} 
 
 nav {
   display: flex;
   padding: 5px;
   width: 100vw;
-  /* box-sizing: border-box; */
   justify-content: space-between;
   text-decoration: none;
-  /* border-bottom: 1px solid transparent; */
-  /* transition: all 0.2s;  */
-  font-family: 'Montserrat';
-    font-weight: 100;
-    /* font-size: 20px; */
+  font-family: "Montserrat";
+  font-weight: 100;
   font-weight: 900;
-  /* font-style:  #2F2C2C; */
-  color: #524F4F;
-  
-  
- 
- 
+  color: #524f4f;
 }
-/* nav:hover {
-  font-weight: 400;
- background-color: white;
-} */
+
 
 form,
 form label,
-form input, form textarea , h4, form button {
+form input,
+form textarea,
+h4,
+form button {
   margin: 0 auto;
   width: 60%;
   font-family: "Montserrat";
@@ -41,49 +29,30 @@ form input, form textarea , h4, form button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
-  /* margin-left: 27%; */
   outline: none;
   border: none;
-  /* background-color: #f0d6d8; */
-  /* margin: 300px; */
   border-radius: 20px;
   padding: 10px 20px;
 }
 
-  
-
-  /* form input {
-  font-family: "Montserrat";
-   border-radius: 20px; 
-    padding: 20px 40px;
-    margin: 20px; 
-  font-weight: 500;
-  background-color: #e4dac3;
-  color: #3f382f; 
-   margin: 10px;
-  transition: all 0.2s; 
-  
-}  */
 
 form button {
   background-color: #e4dac3;
-    color: #524F4F;
-    font-family: 'Montserrat';
-    outline: none;
-    border: none;
-    border-radius: 20px;
-    padding: 20px 40px;
-    margin: 20px;
-    width: 300px; 
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-
-  } 
+  color: #524f4f;
+  font-family: "Montserrat";
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 20px 40px;
+  margin: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
 form button:hover {
-  color:#3f382f;
+  color: #3f382f;
   background-color: #f0d6d8;
 }
 
@@ -92,160 +61,123 @@ form button:hover {
   width: 60%;
   text-align: center;
   background-color: #bfe4d2;
-  font-family: 'Montserrat';
-  /* font-weight: 100; */
-  /* font-size: 20px; */
-  }
-
-  .home h1{
-    font-family: 'Hachi Maru Pop', cursive;
-    font-size: 75px;
-    margin-bottom: 10px;
-    color:  #2F2C2C;
-  }
-
-  .home p {
-    
-    font-weight: 74000;
-    /* line-height: 23px; */
-    font-size: 15px;
-  }
-  
-  .home button {
-    background-color: #e4dac3;
-    color: #524F4F;
-    font-family: 'Montserrat';
-    outline: none;
-    border: none;
-    border-radius: 20px;
-    padding: 20px 40px;
-    margin: 20px;
-  }
-  
-  .home button:hover{
-    background-color:#bfe4d2
-  }
-  
-  
-  @media only screen and (max-width: 768px) {
-    /* default iPad screens */
-  .home {
-    padding: 25px 0px;
-   
-  }
-  }
-  
-  @media only screen and (max-device-width: 480px) {
-    /* styles for mobile browsers smaller than 480px; 
-    (iPhone) */
-  .home {
-    font-size: 50px;
-  }
-  
-  .home p {
-    font-size: 11px;
-    line-height: 20px;
-  }
+  font-family: "Montserrat";
 }
-  .app {
-    background-color: #f0d6d8;
-    /* background-repeat: no-repeat;
-  background-size: 200px, 200px; */
-  
-  /* opacity: 0.6; */
- 
 
-  }
+.home h1 {
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: 75px;
+  margin-bottom: 10px;
+  color: #2f2c2c;
+}
 
-  .recipes {
-    font-family: 'Montserrat';
-    display: flex;
+.home p {
+  font-weight: 74000;
+  font-size: 15px;
+}
+
+.home button {
+  background-color: #e4dac3;
+  color: #524f4f;
+  font-family: "Montserrat";
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 20px 40px;
+  margin: 20px;
+}
+
+.home button:hover {
+  background-color: #bfe4d2;
+}
+
+
+.app {
+  height: 150vh;
+  background-color: #f0d6d8;
+}
+
+.recipes {
+  font-family: "Montserrat";
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #524F4F;
-
-  }
-  .recipes p{
-    flex-direction: column;
+  color: #524f4f;
+}
+.recipes p {
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #524F4F;
-  }
+  color: #524f4f;
+}
 
-  .recipes h4 {
-    background-color: #e4dac3;
-    color: #524F4F;
-    font-family: 'Montserrat';
-    outline: none;
-    border: none;
-    border-radius: 20px;
-    padding: 20px 20px;
-    margin: 20px;
-  }
+.recipes h4 {
+  background-color: #e4dac3;
+  color: #524f4f;
+  font-family: "Montserrat";
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin: 20px;
+}
 
-  /* .recipes link {
-    color: #524F4F;
-  } */
-  .recipes label {
-    background-color: #e4dac3;
-    color: #524F4F;
-    font-family: 'Montserrat';
-    outline: none; 
-    border: none;
-    border-radius: 20px;
-    padding: 10px 30px;
-    /* margin: 20px;  */
-  }
 
-  .back button {
-    background-color: #e4dac3;
-    color: #524F4F;
-    font-family: 'Montserrat';
-    border-radius: 20px;
-    padding: 10px 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-   outline:  #524F4F;
- 
-  
-   
-  }
-  .back button:hover {
-    color:#3f382f;
+.recipes label {
+  background-color: #e4dac3;
+  color: #524f4f;
+  font-family: "Montserrat";
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.back button {
+  background-color: #e4dac3;
+  color: #524f4f;
+  font-family: "Montserrat";
+  border-radius: 20px;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  outline: #524f4f;
+  transition: all 0.2s;
+}
+.back button:hover {
+  color: #3f382f;
   background-color: #f0d6d8;
-  }
+}
 
-  footer{
-    height: auto;
-    /* margin-top: 40px; */
-    background-color: #f0d6d8;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: #524F4F;
-  }
+footer {
+  height: auto;
+  background-color: #f0d6d8;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #524f4f;
+}
+
+footer p {
+  margin: 0;
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: 10px;
+  line-height: 40px;
+}
   
-  footer p{
-    margin: 0;
-    font-family: 'Hachi Maru Pop', cursive;
-    font-size: 10px;
-    line-height: 40px;
-  }
-/*   
-  @media only screen and (max-device-width: 480px) { */
-    /* styles for mobile browsers smaller than 480px; 
-    (iPhone) */
-  /* footer p {
+  /* @media only screen and (max-device-width: 480px) {
+styles for mobile browsers smaller than 480px; 
+    (iPhone)
+footer p {
     font-size: 10px;
   }
 } */
 
 .allrecipes img {
   width: 275px;
-  /* height: auto;  */
   max-width: 100%;
   height: auto;
   border-radius: 20px;
@@ -256,8 +188,47 @@ form button:hover {
   align-items: center;
 }
 
-/* .homeimage {
-  width: 250px;
-  float: left;
-  margin-left: -150px;
-} */
+@media (max-width: 800px) {
+  .home {
+    padding: 25px 0px;
+  }
+  form,
+form label,
+form input,
+form textarea,
+h4,
+form button {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.allrecipes img {
+  width: 300px;
+  height: 300px;
+  border-style: dotted;
+}
+.home {
+  background-color: #f1e3bc;
+}
+
+.recipes h4, .recipes p{
+  font-size: 20px;
+ 
+}
+}
+
+@media (max-device-width: 480px) {
+  .home {
+    font-size: 50px;
+  }
+
+  .home p, .recipes label, .recipes, .recipes p, .recipes h4 {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .allrecipes img {
+    width: 100px;
+  }
+}

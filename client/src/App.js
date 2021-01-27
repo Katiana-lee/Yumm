@@ -59,7 +59,7 @@ function App() {
       <Route path='/recipe/:title'>
         <Recipe recipes={recipes}/>
       </Route>
-      <Footer />
+      {/* <Footer /> */}
    </div>
   )
 }
