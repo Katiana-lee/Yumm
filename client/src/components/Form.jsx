@@ -39,18 +39,21 @@ function Form(props) {
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
+
       <label htmlFor="ingredients">Ingredients:</label>
       <input
         title="ingredients"
         type="text"
         value={ingredients}
         onChange={(e) => setIngredients(e.target.value)} />
+      
       <label htmlFor="recipe">Recipe:</label>
       <textarea
         title="recipe"
         type="text"
         value={recipe}
         onChange={(e) => setRecipe(e.target.value)} />
+      
       <label htmlFor="stage">Stage:</label>
       <input
         title="stage"
@@ -59,12 +62,14 @@ function Form(props) {
         max="3"
         value={stage}
         onChange={(e) => setStage(e.target.valueAsNumber)} />
+      
       <label htmlFor="type">Choose a Meal:</label>
       <input
         title="type"
         type="text"
         value={type}
         onChange={(e) => setType(e.target.value)} />
+      
       <button type="submit">Yummy!</button>
    </form>
   )

@@ -8,16 +8,19 @@ function Recipe(props) {
   ))
 
   return (
+
     <div className="allrecipes">
       <Back />
       {singleData && 
         <div className="recipes">
+        
       <h4>{singleData.fields.title}</h4>
       <img src={singleData.fields.src} /><br></br>
       <label htmlFor="title">Ingredients:</label>
       <p>{singleData.fields.ingredients}</p>
       <label htmlFor="title">Instructions:</label>
         <p>{singleData.fields.recipe}</p>
+        
         </div>
       }
 
