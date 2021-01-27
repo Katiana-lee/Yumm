@@ -44,7 +44,7 @@ function App() {
     <div className="app">
       <Nav  />
       {/* <Back onClick={this.goBack}/> */}
-      <Back />
+      {/* <Back /> */}
       <Route exact path='/'>
        
           <Home recipes={recipes} filterData={filterData} />

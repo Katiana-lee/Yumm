@@ -1,6 +1,7 @@
-import { useState } from "react"
+import { useState} from "react"
 import axios from "axios"
 import { baseURL, config } from "../services"
+import { useHistory } from "react-router-dom"
 
 
 function Form(props) {
@@ -9,22 +10,24 @@ function Form(props) {
   const [recipe, setRecipe] = useState("")
   const [stage, setStage] = useState(1)
   const [type, setType] = useState("")
+  const history = useHistory()
  
   const handleSubmit = async (e) => {
-    // e.preventDefault()
+    e.preventDefault()
 
     const fields = {
       title,
       ingredients,
       recipe,
-      type,
       stage,
+      type,
     }
 
    
     await axios.post(baseURL, { fields }, config)
     console.log("success!")
     props.setToggleFetch((prev) => !prev)
+    history.push('/')
   }
   return (
     <form onSubmit={handleSubmit}>
@@ -43,18 +46,17 @@ function Form(props) {
         value={ingredients}
         onChange={(e) => setIngredients(e.target.value)} />
       <label htmlFor="recipe">Recipe:</label>
-      <input
+      <textarea
         title="recipe"
         type="text"
-        textarea value={recipe}
-        onChange={(e) => setRecipe(e.target.recipe)} />
+        value={recipe}
+        onChange={(e) => setRecipe(e.target.value)} />
       <label htmlFor="stage">Stage:</label>
       <input
         title="stage"
         type="number"
         min="1"
         max="3"
-        name='stage'
         value={stage}
         onChange={(e) => setStage(e.target.valueAsNumber)} />
       <label htmlFor="type">Type:</label>

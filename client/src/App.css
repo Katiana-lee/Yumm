@@ -33,18 +33,10 @@ nav {
 
 form,
 form label,
-form input {
-  /* outline: none;
-    border: none;
-    border-radius: 20px;
-    padding: 20px 40px;
-    margin: 20px; */
-   /* border-radius: 20px; */
-  /* padding: 20px 40px;
-  margin: 20px;  */
-  /* margin: 25px 0px;
-  padding: 25px 70px; */
-  /* margin: 5px 0; */
+form input, form textarea {
+  
+  width: 300px;
+
   font-family: "Montserrat";
   /* width: 50vw; */
   /* box-sizing: border-box; */
@@ -54,55 +46,46 @@ form input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
+  text-align: center;
+  margin-left: 32%;
   outline: none;
   border: none;
   /* background-color: #f0d6d8; */
+  /* margin: 400px; */
 }
 
   
-  
 
-/* form input:focus,
-form button:focus {
-  outline: 1px solid #f0d6d8;
-} */
-
-form h4 {
-  font-family: "Montserrat";
-  font-weight: 700;
-  color: #3f382f;
-  text-align: center;
-}
-form label {
-  color:  #3f382f;
-  font-weight: 600;
-  /* text-shadow: 3px 3px 6px #bfe4d2; */
-  text-align: center
-}
-form input {
+ /* form input {
   font-family: "Montserrat";
    border-radius: 20px; 
     padding: 20px 40px;
     margin: 20px; 
-  font-weight: 700;
+  font-weight: 500;
   background-color: #e4dac3;
-  color: #3f382f;
-  /* transition: all 0.2s; */
+  color: #3f382f; 
+   margin: 10px;
+  transition: all 0.2s; 
   
-}
-
+} */
+/* 
 form button {
   background-color: #e4dac3;
     color: #524F4F;
     font-family: 'Montserrat';
     outline: none;
     border: none;
-    border-radius: 20px;
+    /* border-radius: 20px;
     padding: 20px 40px;
     margin: 20px;
-  }
+    width: 250px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
 
+  }  */
 form button:hover {
   color:#3f382f;
   background-color: #f0d6d8;
@@ -169,9 +152,9 @@ form button:hover {
 }
   .app {
     background-color: #f0d6d8;
-    background-image: url(https://cdn2.vectorstock.com/i/1000x1000/95/86/mother-feeding-child-icon-vector-18109586.jpg);
-    background-repeat: no-repeat;
-  background-size: 200px, 200px;
+    /* background-repeat: no-repeat;
+  background-size: 200px, 200px; */
+  
   /* opacity: 0.6; */
  
 
@@ -186,6 +169,12 @@ form button:hover {
   color: #524F4F;
 
   }
+  .recipes p{
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #524F4F;
+  }
 
   .recipes h4 {
     background-color: #e4dac3;
@@ -198,9 +187,9 @@ form button:hover {
     margin: 20px;
   }
 
-  .recipes link {
+  /* .recipes link {
     color: #524F4F;
-  }
+  } */
   .recipes label {
     background-color: #e4dac3;
     color: #524F4F;
@@ -224,18 +213,19 @@ form button:hover {
 
   footer{
     height: 40px;
-    background-color: rgba(28, 28, 28, 0.5);
+    /* margin-top: 40px; */
+    background-color: #f0d6d8;
     position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
-    color: #f0d6d8;
+    color: #524F4F;
   }
   
   footer p{
     margin: 0;
     font-family: 'Hachi Maru Pop', cursive;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 40px;
   }
   
@@ -246,3 +236,14 @@ form button:hover {
     font-size: 10px;
   }
 }
+
+.recipes img {
+  width: 350px;
+  border-radius: 20px;
+}
+
+/* .homeimage {
+  width: 250px;
+  float: left;
+  margin-left: -150px;
+} */
